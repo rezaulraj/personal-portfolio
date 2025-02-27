@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+* {
+  scroll-behavior: smooth !important;
+}
+
+/* Custom scrollbar for modern browsers */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust width */
+  height: 8px; /* Adjust height for horizontal scroll */
+}
+
+::-webkit-scrollbar-track {
+  background: #023047; /* Light background */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e9c46a; /* Your red logo color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e9c46a; /* Darker red on hover */
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #caad65 #014263; /* Thumb & Track */
+}
