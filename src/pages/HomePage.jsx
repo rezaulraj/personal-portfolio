@@ -42,12 +42,15 @@ const HomePage = () => {
           architecture, I turn ideas into reality through innovative
           development.
         </p>
-        <button className="group relative inline-block text-sm font-medium text-[#e9c46a] focus:ring-3 focus:outline-hidden ">
+        <a
+          href="#about"
+          className="group relative inline-block text-sm font-medium text-[#e9c46a] focus:ring-3 focus:outline-hidden "
+        >
           <span className="absolute inset-0 border-2 border-[#e9c46a] rounded-md group-hover:bg-[#e9c46a] transition duration-500"></span>
           <span className="block border-2 border-[#e9c46a] rounded-md bg-[#023047] px-6 py-3 transition duration-500 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1">
             Check out my profile!
           </span>
-        </button>
+        </a>
       </motion.section>
       <motion.section
         id="about"
@@ -107,8 +110,8 @@ const HomePage = () => {
             Get In Touch
           </h1>
           <p className="text-gray-400 text-lg text-center max-w-[400px]">
-            Although I’m currently looking for any new opportunities, my
-            inbox is always open.{" "}
+            Although I’m currently looking for any new opportunities, my inbox
+            is always open.{" "}
           </p>
         </div>
         <Contact />
