@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-
+import Resume from "../../assets/RezaulKarim.pdf";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isHeaderVisible, setIsHeaderVisible] = useState(true);
@@ -110,19 +109,21 @@ const Header = () => {
               {item}
             </motion.a>
           ))}
-          <motion.button
+          <motion.a
             className="group relative inline-block text-sm font-medium text-[#e9c46a] focus:ring-3 focus:outline-hidden cursor-pointer"
             variants={navItemVariants}
             initial="hidden"
             animate="visible"
             whileHover="hover"
             transition={{ duration: 0.3, delay: 0.4 }}
+            href={Resume}
+            download
           >
             <span className="absolute inset-0 border-2 border-[#e9c46a] rounded-md group-hover:bg-[#e9c46a] transition duration-500"></span>
-            <span className="block tracking-widest border-2 border-[#e9c46a] rounded-md bg-[#023047] px-6 py-3 transition duration-500 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1">
+            <span className="block tracking-widest border-2 border-[#e9c46a] rounded-md bg-[#023047] px-6 py-3 duration-500 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1">
               Resume
             </span>
-          </motion.button>
+          </motion.a>
         </nav>
       </div>
 
@@ -176,19 +177,21 @@ const Header = () => {
                   {item}
                 </motion.a>
               ))}
-              <motion.button
+              <motion.a
                 className="group relative inline-block text-sm font-medium text-[#e9c46a] focus:ring-3 focus:outline-hidden cursor-pointer "
                 variants={navItemVariants}
                 initial="hidden"
                 animate="visible"
                 whileHover="hover"
                 transition={{ duration: 0.3, delay: 0.4 }}
+                href={Resume}
+                download
               >
                 <span className="absolute inset-0 border-2 border-[#e9c46a] rounded-md group-hover:bg-[#e9c46a] transition duration-500"></span>
                 <span className="block tracking-widest border-2 border-[#e9c46a] rounded-md bg-[#023047] px-6 py-3 duration-500 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1">
                   Resume
                 </span>
-              </motion.button>
+              </motion.a>
             </div>
           </motion.div>
         )}

@@ -48,11 +48,24 @@ function App() {
       {/* Sticky Section */}
       <div className="fixed z-10 bottom-0 left-0 pl-10 hidden md:block">
         <div className="flex flex-col items-center space-y-6">
-          <Github className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
-          <Instagram className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
-          <Twitter className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
-          <Linkedin className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
-          <Facebook className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
+          <a href="https://github.com/rezaulraj" target="_blank">
+            <Github className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <Instagram className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
+          </a>
+          <a href="https://x.com/rezaulraj85" target="_blank">
+            <Twitter className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/md-rezaul-karim-a882aa253/"
+            target="_blank"
+          >
+            <Linkedin className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
+          </a>
+          <a href="https://www.facebook.com/rezaul85" target="_blank">
+            <Facebook className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
+          </a>
           {/* Vertical Line */}
           <div className="h-24 flex justify-center">
             <span className="border-l border-gray-300 h-full"></span>

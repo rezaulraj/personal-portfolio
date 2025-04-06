@@ -47,7 +47,7 @@ const AboutMe = () => {
           <span className="font-bold text-[#e9c46a]">
             Problem-Solving Mindset :
           </span>
-           I love tackling complex challenges, optimizing code, and finding
+          I love tackling complex challenges, optimizing code, and finding
           innovative ways to improve performance and user experience.
         </li>
       </div>

@@ -55,11 +55,24 @@ const Contact = () => {
       </form>
       <div className="mt-16">
         <div className="flex items-center justify-center mb-4 space-x-6 md:hidden">
-          <Github className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
-          <Instagram className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
-          <Twitter className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
-          <Linkedin className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
-          <Facebook className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
+          <a href="https://github.com/rezaulraj" target="_blank">
+            <Github className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <Instagram className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
+          </a>
+          <a href="https://x.com/rezaulraj85" target="_blank">
+            <Twitter className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/md-rezaul-karim-a882aa253/"
+            target="_blank"
+          >
+            <Linkedin className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
+          </a>
+          <a href="https://www.facebook.com/rezaul85" target="_blank">
+            <Facebook className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer text-gray-400" />
+          </a>
         </div>
         <h3 className="text-gray-300 tracking-wider text-center">
           Designed & Built by Md Rezaul Karim

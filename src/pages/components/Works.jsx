@@ -44,7 +44,13 @@ const Works = () => {
             </ul>
           </div>
           <div className="flex items-start gap-x-4 text-amber-50">
-            <Github className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer" />
+            <a
+              href="https://github.com/rezaulraj/ecommarce"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer" />
+            </a>
             <Link className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer" />
           </div>
         </div>
@@ -98,7 +104,13 @@ const Works = () => {
             </ul>
           </div>
           <div className="flex items-start gap-x-4 text-amber-50">
-            <Github className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer" />
+            <a
+              href="https://github.com/rezaulraj/motify"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer" />
+            </a>
             <Link className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer" />
           </div>
         </div>
@@ -151,7 +163,13 @@ const Works = () => {
             </ul>
           </div>
           <div className="flex items-start gap-x-4 text-amber-50">
-            <Github className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer" />
+            <a
+              href="https://github.com/rezaulraj/airbnb-clone"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer" />
+            </a>
             <Link className="hover:text-amber-200 hover:-translate-y-2 transition-transform duration-500 cursor-pointer" />
           </div>
         </div>
